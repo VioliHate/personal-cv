@@ -81,6 +81,18 @@ export const cvData: CVData = {
   outWorkExperience: [
     {
       id: 1,
+      role: "Sound Designer",
+      name: "Global Game Jam – 'Mask or Die'",
+      period: "gen 2026",
+      description: [
+        "Secondi classificati per il premio 'Miglior Gioco' e il premio 'Miglior Gameplay' della Global Game Jam 2026 (jam site locale).",
+        "Sviluppo di un gioco completo in 48 ore",
+        "Sound design completo: composizione musicale e creazione di effetti vocali tramite FL Studio, inclusi recording ed editing audio.",
+        "Collaborazione agile in un team multidisciplinare sotto scadenze strette.",
+      ],
+    },
+    {
+      id: 2,
       role: "Technical Designer e Developer",
       name: "GameForge Unical (Open Workshop)",
       period: "nov 2025 – Presente",
@@ -92,7 +104,7 @@ export const cvData: CVData = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       role: "Game Developer & Game Designer",
       name: "Global Game Jam – 'BubbleNap'",
       period: "gen 2025",
@@ -104,7 +116,7 @@ export const cvData: CVData = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       role: "Software Developer Trainee",
       name: "InfoPower Research ",
       period: "Dic 2018 - Feb 2019",
