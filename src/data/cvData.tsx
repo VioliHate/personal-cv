@@ -5,10 +5,10 @@ import type { CVData } from "../types/interfaces";
 export const cvData: CVData = {
   personal: {
     name: "Domenico Violi",
-    role: "Front-end Developer",
+    role: "Frontend Developer | Full-Stack",
     photo: "/ttttt.jpg",
     description:
-      "Sviluppatore Front End laureato in Informatica, con esperienza nello sviluppo di applicazioni web moderne. Ho lavorato principalmente con Angular e coltivo il mio interesse studiando e utilizzando anche React. Animato da una spiccata curiosità tecnologica e da un approccio orientato al miglioramento continuo, affronto le sfide complesse come opportunità di crescita. Credo che il progresso passi anche dagli errori: ogni bug risolto è un passo avanti nella qualità del codice e del prodotto.",
+      "Sviluppatore Frontend con esperienza Angular in ambito business. Sto ampliando le mie competenze verso il backend con Spring Boot in progetti full stack. React approfondito tramite studio personale.\nAnimato da una solida curiosità tecnologica e da un approccio orientato al miglioramento continuo, affronto le sfide complesse come opportunità di crescita. Considero ogni errore un’occasione di apprendimento: ogni bug risolto contribuisce ad aumentare la qualità del codice e del prodotto.",
   },
   contact: [
     {
@@ -121,6 +121,19 @@ export const cvData: CVData = {
     },
     {
       id: 4,
+      role: "Front-End Developer",
+      name: "personal-cv",
+      period: "Gen 2026 - Presente",
+      description: [
+        "Sviluppo di applicazione React per la gestione e generazione dinamica del CV personale.",
+        "Archiviazione strutturata delle informazioni e rendering dinamico dei contenuti.",
+        "Generazione ed esportazione del CV in formato PDF.",
+        "Progetto finalizzato all’automazione e personalizzazione del processo di creazione del curriculum.",
+        "Stack: React.",
+      ],
+    },
+    {
+      id: 5,
       role: "Technical Designer e Developer",
       name: "GameForge Unical (Open Workshop)",
       period: "Nov 2025 – Presente",
@@ -132,7 +145,7 @@ export const cvData: CVData = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       role: "Game Developer & Game Designer",
       name: "Global Game Jam – 'BubbleNap'",
       period: "Gen 2025",
@@ -144,7 +157,7 @@ export const cvData: CVData = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       role: "Software Developer Trainee",
       name: "InfoPower Research ",
       period: "Dic 2018 - Feb 2019",
