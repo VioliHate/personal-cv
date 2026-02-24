@@ -1,5 +1,6 @@
 import React from "react";
 import type { CVData } from "../types/interfaces";
+import "./for-print.css";
 
 interface MainContentProps {
   data: CVData;
@@ -90,20 +91,24 @@ export const MainContent: React.FC<MainContentProps> = ({ data }) => {
 
       {/* Formazione */}
       <section>
-        <h2 className='text-2xl font-bold text-slate-900 border-b-2 border-blue-500 pb-2 mb-6 inline-block'>
-          Formazione
-        </h2>
-        <div className='space-y-6'>
-          {education.map((edu) => (
-            <div
-              key={edu.id}
-              className='bg-slate-50 p-4 rounded-lg border border-slate-100'
-            >
-              <h3 className='text-lg font-bold text-slate-800'>{edu.degree}</h3>
-              <p className='text-slate-600'>{edu.school}</p>
-              <p className='text-sm text-slate-400 mt-1'>{edu.period}</p>
-            </div>
-          ))}
+        <div className='print-keep-together'>
+          <h2 className='text-2xl font-bold text-slate-900 border-b-2 border-blue-500 pb-2 mb-6 inline-block'>
+            Formazione
+          </h2>
+          <div className='space-y-6'>
+            {education.map((edu) => (
+              <div
+                key={edu.id}
+                className='bg-slate-50 p-4 rounded-lg border border-slate-100'
+              >
+                <h3 className='text-lg font-bold text-slate-800'>
+                  {edu.degree}
+                </h3>
+                <p className='text-slate-600'>{edu.school}</p>
+                <p className='text-sm text-slate-400 mt-1'>{edu.period}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </main>

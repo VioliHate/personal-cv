@@ -8,7 +8,7 @@ export const cvData: CVData = {
     role: "Frontend Developer | \n Full-Stack",
     photo: "/ttttt.jpg",
     description:
-      "Sviluppatore Frontend con esperienza Angular in ambito business. Sto ampliando le mie competenze verso il backend con Spring Boot in progetti full stack. React approfondito tramite studio personale.\nAnimato da una solida curiosità tecnologica e da un approccio orientato al miglioramento continuo, affronto le sfide complesse come opportunità di crescita. Considero ogni errore un’occasione di apprendimento: ogni bug risolto contribuisce ad aumentare la qualità del codice e del prodotto.",
+      "Sviluppatore Frontend con solida esperienza Angular in ambito business. Sto ampliando le competenze full-stack con Spring Boot e approfondendo React tramite studio personale. Curiosità tecnologica e approccio al continuous improvement: ogni bug risolto è un’occasione per elevare qualità di codice e prodotto.",
   },
   contact: [
     {

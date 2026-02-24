@@ -1,0 +1,6 @@
+@media print {
+    .print-keep-together {
+        break-inside: avoid-page !important;
+        page-break-inside: avoid !important;
+    }
+}
