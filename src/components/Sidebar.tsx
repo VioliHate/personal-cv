@@ -30,7 +30,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ data }) => {
       {/* Nome e Ruolo */}
       <div className='text-center md:text-left mb-8'>
         <h1 className='text-3xl font-bold mb-2'>{personal.name}</h1>
-        <p className='text-blue-400 uppercase tracking-widest text-sm font-semibold'>
+        <p
+          className='text-blue-400 uppercase tracking-widest text-sm font-semibold'
+          style={{ whiteSpace: "pre-line" }}
+        >
           {personal.role}
         </p>
       </div>

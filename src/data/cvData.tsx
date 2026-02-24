@@ -5,7 +5,7 @@ import type { CVData } from "../types/interfaces";
 export const cvData: CVData = {
   personal: {
     name: "Domenico Violi",
-    role: "Frontend Developer | Full-Stack",
+    role: "Frontend Developer | \n Full-Stack",
     photo: "/ttttt.jpg",
     description:
       "Sviluppatore Frontend con esperienza Angular in ambito business. Sto ampliando le mie competenze verso il backend con Spring Boot in progetti full stack. React approfondito tramite studio personale.\nAnimato da una solida curiosità tecnologica e da un approccio orientato al miglioramento continuo, affronto le sfide complesse come opportunità di crescita. Considero ogni errore un’occasione di apprendimento: ogni bug risolto contribuisce ad aumentare la qualità del codice e del prodotto.",
@@ -42,6 +42,12 @@ export const cvData: CVData = {
     "C#",
     "C++",
     "Unity",
+    "Sprig Boot",
+    "Spring Data JPA",
+    "PostgreSQL",
+    "Flyway",
+    "JUnit",
+    "Docker",
   ],
   workExperience: [
     {
