@@ -6,9 +6,6 @@ export const cvData: CVData = {
   personal: {
     name: "Domenico Violi",
     role: "Frontend Developer | \n Full-Stack",
-    photo: "/ttttt.jpg",
-    description:
-      "Sviluppatore Frontend con solida esperienza Angular in ambito business. Sto ampliando le competenze full-stack con Spring Boot e approfondendo React tramite studio personale. Curiosità tecnologica e approccio al continuous improvement: ogni bug risolto è un’occasione per elevare qualità di codice e prodotto.",
   },
   contact: [
     {
@@ -42,7 +39,7 @@ export const cvData: CVData = {
     "C#",
     "C++",
     "Unity",
-    "Sprig Boot",
+    "Spring Boot",
     "Spring Data JPA",
     "PostgreSQL",
     "Flyway",
@@ -89,7 +86,7 @@ export const cvData: CVData = {
       id: 1,
       role: "Full Stack Developer",
       name: "VURPE – Smart BPM Dashboard'",
-      period: "Feb 2026 - Presente",
+      period: "Feb 2026 - Mar 2026",
       description: [
         "Progettazione e sviluppo di piattaforma enterprise per analisi dati business con approccio ibrido ML + Rules Engine.",
         "Clean Architecture con RESTful API, async task processing e aggiornamenti real-time via WebSocket.",
@@ -103,7 +100,7 @@ export const cvData: CVData = {
       id: 2,
       role: "Full Stack Developer",
       name: "Cignalottu – barbering e-commerce & training platform ",
-      period: "Fen 2026 - Presente",
+      period: "Gen 2026 - Presente",
       description: [
         "Sviluppo di piattaforma e-commerce per prodotti da barbiere e corsi di formazione professionale.",
         "Architettura Clean Architecture con RESTful API e separazione strutturata dei layer applicativi.",
