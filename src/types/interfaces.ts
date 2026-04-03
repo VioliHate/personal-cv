@@ -3,8 +3,6 @@ import React from "react";
 export interface PersonalInfo {
   name: string;
   role: string;
-  photo: string;
-  description: string;
 }
 
 export interface ContactItem {
