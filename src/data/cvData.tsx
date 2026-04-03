@@ -5,7 +5,7 @@ import type { CVData } from "../types/interfaces";
 export const cvData: CVData = {
   personal: {
     name: "Domenico Violi",
-    role: "Frontend Developer | \n Full-Stack",
+    role: "Frontend Developer \n Full-Stack",
   },
   contact: [
     {
