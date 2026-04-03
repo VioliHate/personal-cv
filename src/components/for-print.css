@@ -1,6 +1,17 @@
 @media print {
-    .print-keep-together {
-        break-inside: avoid-page !important;
-        page-break-inside: avoid !important;
+    body {
+        background: white;
+    }
+
+    .md\:shadow-sm {
+        shadow: none !important;
+    }
+
+    .md\:rounded-sm {
+        border-radius: 0 !important;
+    }
+
+    @page {
+        margin: 15mm;
     }
 }

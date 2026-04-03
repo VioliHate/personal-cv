@@ -1,5 +1,5 @@
 import { Download } from "lucide-react";
-import { Sidebar } from "./components/Sidebar";
+import { Headerbar } from "./components/Headerbar";
 import { MainContent } from "./components/MainContent";
 import { cvData } from "./data/cvData";
 
@@ -9,7 +9,7 @@ function App() {
       {/* Container Principale (Layout) */}
       <div className='bg-white shadow-2xl rounded-xl overflow-hidden w-full max-w-5xl flex flex-col md:flex-row'>
         {/* Componente Sinistro */}
-        <Sidebar data={cvData} />
+        <Headerbar data={cvData} />
 
         {/* Componente Destro */}
         <MainContent data={cvData} />
