@@ -2,10 +2,13 @@
 import React from "react";
 import type { CVData } from "../types/interfaces";
 import { ExperienceSection } from "./ExperienceSection";
+import { ProfileSummary } from "./ProfileSummary";
 
 export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
   return (
     <main>
+      {/* Profilo professionale */}
+      <ProfileSummary summary={data.summary} />
       {/* Tech Stack - Tag minimali */}
       <section className='mb-16'>
         <h2 className='text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-6'>
