@@ -3,6 +3,7 @@ import type {
   WorkExperienceItem,
   OutWorkExperienceItem,
 } from "../types/interfaces";
+import { linkify } from "../utils/TextToLink";
 
 interface ExperienceSectionProps {
   title: string;
@@ -45,7 +46,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
                   className='text-slate-600 leading-relaxed text-[15px] flex gap-3'
                 >
                   <span className='mt-2 w-1.5 h-1.5 rounded-full bg-slate-300 shrink-0' />
-                  {bullet}
+                  {linkify(bullet)}
                 </li>
               ))}
             </ul>
