@@ -3,28 +3,16 @@ import React from "react";
 import type { CVData } from "../types/interfaces";
 import { ExperienceSection } from "./ExperienceSection";
 import { ProfileSummary } from "./ProfileSummary";
+import { TechStack } from "./TechStack";
 
 export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
   return (
     <main>
       {/* Profilo professionale */}
       <ProfileSummary summary={data.summary} />
+
       {/* Tech Stack - Tag minimali */}
-      <section className='mb-16'>
-        <h2 className='text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-6'>
-          Tech Stack
-        </h2>
-        <div className='flex flex-wrap gap-2'>
-          {data.skills.map((skill, i) => (
-            <span
-              key={i}
-              className='px-3 py-1 bg-slate-50 text-slate-600 text-xs font-bold rounded border border-slate-200 uppercase tracking-tighter'
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
-      </section>
+      <TechStack data={data} />
 
       <ExperienceSection title='Work Experience' items={data.workExperience} />
 
