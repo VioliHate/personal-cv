@@ -20,7 +20,7 @@ export interface WorkExperienceItem {
   description: string[];
 }
 
-//esperienze fuorui dal contesto lavorativo
+//esperienze fuori dal contesto lavorativo
 export interface OutWorkExperienceItem {
   id: number;
   role: string;
@@ -36,10 +36,16 @@ export interface EducationItem {
   period: string;
 }
 
+//dividere le categorie
+export interface SkillCategory {
+  title: string;
+  skills: string[];
+}
+
 export interface CVData {
   personal: PersonalInfo;
   contact: ContactItem[];
-  skills: string[];
+  skills: SkillCategory[];
   summary: string;
   workExperience: WorkExperienceItem[];
   outWorkExperience: OutWorkExperienceItem[];
