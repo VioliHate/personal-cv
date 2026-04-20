@@ -40,6 +40,7 @@ export interface CVData {
   personal: PersonalInfo;
   contact: ContactItem[];
   skills: string[];
+  summary: string;
   workExperience: WorkExperienceItem[];
   outWorkExperience: OutWorkExperienceItem[];
   education: EducationItem[];
