@@ -9,7 +9,7 @@ export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
   return (
     <main>
       {/* Profilo professionale */}
-      <ProfileSummary summary={data.summary} />
+      <ProfileSummary data={data} />
 
       {/* Tech Stack - Tag minimali */}
       <TechStack data={data} />

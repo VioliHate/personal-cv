@@ -1,13 +1,12 @@
 import React from "react";
+import type { CVData } from "../types/interfaces";
 
-interface SummaryProps {
-  summary: string;
-}
-
-export const ProfileSummary: React.FC<SummaryProps> = ({ summary }) => (
+export const ProfileSummary: React.FC<{ data: CVData }> = ({ data }) => (
   <section className='mb-10 print-keep-together'>
-    <p className='text-slate-600 leading-relaxed text-[15px] max-w-3xl'>
-      {summary}
-    </p>
+    <div className='border-l-4 border-blue-200 pl-5 py-1'>
+      <p className='text-slate-700 text-[15.5px] leading-relaxed max-w-[95%] whitespace-pre-wrap'>
+        {data.summary}
+      </p>
+    </div>
   </section>
 );

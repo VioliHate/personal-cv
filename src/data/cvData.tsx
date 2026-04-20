@@ -27,9 +27,9 @@ export const cvData: CVData = {
     },
   ],
   summary:
-    "Frontend Developer con 5+ anni di esperienza in Angular e React. " +
-    "Specializzato in sviluppo Full-Stack con Spring Boot, Clean Architecture. " +
-    "Tech Lead di team front-end e game developer premiato alla Global Game Jam.",
+    "Full Stack Developer con 6 anni di esperienza, specializzato in Angular e React. " +
+    "Progettazione e sviluppo di soluzioni enterprise con Spring Boot e Clean Architecture.\n" +
+    "Tech Lead FE e game developer premiato alla Global Game Jam.",
   skills: [
     {
       title: "FRONTEND",
