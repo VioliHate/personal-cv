@@ -15,28 +15,9 @@ export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
       <TechStack data={data} />
 
       <ExperienceSection title='Work Experience' items={data.workExperience} />
-
       <ExperienceSection title='Side Projects' items={data.outWorkExperience} />
 
       {/* Formazione */}
-      <section className='print-keep-together'>
-        <h2 className='text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-8'>
-          Formazione
-        </h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-          {data.education.map((edu) => (
-            <div key={edu.id} className='group'>
-              <h3 className='font-bold text-slate-900 group-hover:text-blue-600 transition-colors'>
-                {edu.degree}
-              </h3>
-              <p className='text-slate-500 text-sm font-medium'>{edu.school}</p>
-              <p className='text-xs text-slate-400 mt-1 uppercase tracking-wider'>
-                {edu.period}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
     </main>
   );
 };
