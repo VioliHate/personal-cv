@@ -1,9 +1,9 @@
-// components/MainContent.tsx
 import React from "react";
 import type { CVData } from "../types/interfaces";
 import { ExperienceSection } from "./ExperienceSection";
 import { ProfileSummary } from "./ProfileSummary";
 import { TechStack } from "./TechStack";
+import { Education } from "./Education";
 
 export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
   return (
@@ -18,6 +18,7 @@ export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
       <ExperienceSection title='Side Projects' items={data.outWorkExperience} />
 
       {/* Formazione */}
+      <Education data={data} />
     </main>
   );
 };
