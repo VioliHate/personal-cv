@@ -2,7 +2,6 @@ import React from "react";
 
 export const linkify = (text: string): React.ReactNode => {
   const urlRegex = /(https?:\/\/[^\s]+)/g;
-
   const parts = text.split(urlRegex);
 
   return parts.map((part, i) => {
@@ -13,9 +12,9 @@ export const linkify = (text: string): React.ReactNode => {
           href={part}
           target='_blank'
           rel='noreferrer'
-          className='text-blue-600 underline hover:text-blue-700 transition-colors'
+          className='text-gray-900 underline underline-offset-2 hover:text-gray-750 transition-colors font-medium'
         >
-          {part}
+          {part.replace(/^https?:\/\/(www\.)?/, "")}{" "}
         </a>
       );
     }
