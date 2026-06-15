@@ -36,6 +36,12 @@ export interface EducationItem {
   period: string;
 }
 
+// lingue conosciute
+export interface LanguageItem {
+  name: string;
+  level: string;
+}
+
 //dividere le categorie
 export interface SkillCategory {
   title: string;
@@ -50,4 +56,5 @@ export interface CVData {
   workExperience: WorkExperienceItem[];
   outWorkExperience: OutWorkExperienceItem[];
   education: EducationItem[];
+  languages: LanguageItem[];
 }
