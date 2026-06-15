@@ -2,16 +2,21 @@ import React from "react";
 import type { CVData } from "../types/interfaces";
 
 export const Education: React.FC<{ data: CVData }> = ({ data }) => (
-  <section className='print-keep-together'>
-    <h2 className='text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-6'>
-      Formazione
+  <section className='print-keep-together mb-4'>
+    <h2 className='text-sm font-bold uppercase tracking-wider text-gray-800 border-b border-gray-900 pb-0.5 mb-2'>
+      Education
     </h2>
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+    <div className='space-y-2'>
       {data.education.map((edu) => (
-        <div key={edu.id}>
-          <h3 className='font-bold text-slate-900'>{edu.degree}</h3>
-          <p className='text-slate-500 text-sm'>{edu.school}</p>
-          <p className='text-xs text-slate-400'>{edu.period}</p>
+        <div
+          key={edu.id}
+          className='flex justify-between items-baseline text-[13.5px]'
+        >
+          <div>
+            <span className='font-bold text-gray-900'>{edu.degree}</span>
+            <span className='text-gray-600 italic'> — {edu.school}</span>
+          </div>
+          <span className='text-gray-600 text-xs shrink-0'>{edu.period}</span>
         </div>
       ))}
     </div>

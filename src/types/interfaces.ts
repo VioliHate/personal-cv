@@ -17,6 +17,7 @@ export interface WorkExperienceItem {
   role: string;
   company: string;
   period: string;
+  technologies: string[];
   description: string[];
 }
 
@@ -26,6 +27,7 @@ export interface OutWorkExperienceItem {
   role: string;
   name: string;
   period: string;
+  technologies: string[];
   description: string[];
 }
 
@@ -34,6 +36,12 @@ export interface EducationItem {
   degree: string;
   school: string;
   period: string;
+}
+
+// lingue conosciute
+export interface LanguageItem {
+  name: string;
+  level: string;
 }
 
 //dividere le categorie
@@ -50,4 +58,5 @@ export interface CVData {
   workExperience: WorkExperienceItem[];
   outWorkExperience: OutWorkExperienceItem[];
   education: EducationItem[];
+  languages: LanguageItem[];
 }
