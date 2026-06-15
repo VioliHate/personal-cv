@@ -128,7 +128,7 @@ export const cvData: CVData = {
       role: "Software Developer Trainee",
       name: "InfoPower Research",
       period: "Dicembre 2018 – Febbraio 2019",
-      technologies: [],
+      technologies: ["Ionic", "Java", "Agile (Scrum)"],
       description: [
         "Sviluppato applicazione multipiattaforma SPINApp come progetto di tesi (150 ore).",
         "Front-end in Ionic + interventi back-end Java e bug fixing.",
@@ -140,7 +140,7 @@ export const cvData: CVData = {
       role: "Game Developer & Game Designer",
       name: "Global Game Jam – 'BubbleNap'",
       period: "Gennaio 2025",
-      technologies: [],
+      technologies: ["Java", "Pure Java Game Dev"],
       description: [
         "Vincitore premio 'Miglior Gioco' (jam site locale).",
         "Sviluppato gioco completo in 48 ore in Java puro.",
@@ -151,7 +151,7 @@ export const cvData: CVData = {
       role: "Technical Designer & Developer",
       name: "GameForge Unical (Open Workshop)",
       period: "Novembre 2025 – Presente",
-      technologies: [],
+      technologies: ["Unity", "C#", "Gameplay Logic", "AI Integration"],
       description: [
         "Progettazione tecnica del progetto 'Opus Deceptio' in Unity.",
         "Integrazione sistemi, gameplay logic, AI e ottimizzazione performance.",
@@ -162,7 +162,7 @@ export const cvData: CVData = {
       role: "Sound Designer",
       name: "Global Game Jam – 'Mask or Die'",
       period: "Gennaio 2026",
-      technologies: [],
+      technologies: ["FL Studio", "Sound Design", "Audio Engineering"],
       description: [
         "Secondo classificato 'Miglior Gioco' e 'Miglior Gameplay'.",
         "Sound design completo in 48 ore con FL Studio.",
@@ -173,10 +173,9 @@ export const cvData: CVData = {
       role: "Front-End Developer",
       name: "Personal-CV",
       period: "Gennaio 2026 – Presente",
-      technologies: [],
+      technologies: ["React", "TypeScript", "Tailwind CSS", "PDF Generation"],
       description: [
         "Applicazione React per generazione dinamica e esportazione PDF del curriculum.",
-        "Stack: React + TypeScript.",
       ],
     },
     {
@@ -184,11 +183,17 @@ export const cvData: CVData = {
       role: "Full Stack Developer",
       name: "Cignalottu – Barbering E-commerce & Training Platform",
       period: "Gennaio 2026 – Presente",
-      technologies: [],
+      technologies: [
+        "Angular 21",
+        "Spring Boot 3.x",
+        "Tailwind CSS",
+        "JWT",
+        "OAuth2",
+        "Clean Architecture",
+      ],
       description: [
         "Piattaforma e-commerce + corsi professionali con JWT + OAuth2.",
         "Clean Architecture completa.",
-        "Stack: Angular 21, Spring Boot 3.x, Tailwind CSS.",
       ],
     },
     {
@@ -196,11 +201,16 @@ export const cvData: CVData = {
       role: "Full Stack Developer",
       name: "VURPE – Smart BPM Dashboard",
       period: "Febbraio 2026 – Marzo 2026",
-      technologies: [],
+      technologies: [
+        "Angular 21",
+        "Spring Boot 3.x",
+        "PostgreSQL",
+        "Docker",
+        "WebSocket",
+      ],
       description: [
         "Piattaforma enterprise per analisi dati business con ML + Rules Engine.",
         "Clean Architecture, WebSocket e dashboard real-time.",
-        "Stack: Spring Boot 3.x, Angular 21, PostgreSQL, Docker.",
       ],
     },
     {
@@ -208,7 +218,7 @@ export const cvData: CVData = {
       role: "Front-End Developer & Trainer",
       name: "Git for Humans – Slides interattive",
       period: "Aprile 2026",
-      technologies: [],
+      technologies: ["React", "Git", "Netlify", "Interactive Design"],
       description: [
         "Presentazione interattiva in React per spiegare Git in modo semplice e visuale.",
         "Utilizzata per due lezioni da 90 minuti ciascuna (tot. 3 ore).",
