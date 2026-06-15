@@ -192,8 +192,10 @@ export const cvData: CVData = {
         "Clean Architecture",
       ],
       description: [
-        "Piattaforma e-commerce + corsi professionali con JWT + OAuth2.",
-        "Clean Architecture completa.",
+        "Ideazione e progettazione da zero dell'intero schema architetturale e database della piattaforma, definendo lo stack tecnologico ottimale per supportare e-commerce e flussi di training.",
+        "Analisi e ingegnerizzazione dei requisiti funzionali attraverso la mappatura completa dei casi d'uso dell'utente finale.",
+        "Pianificazione dello sviluppo tramite metodologia Agile, strutturando e sconfigurando autonomamente il flusso di lavoro in Epiche, Task e Subtask.",
+        "Progettazione dell'interfaccia UI/UX front-end, garantendo un layout moderno, accessibile e orientato alla conversione.",
       ],
     },
     {
@@ -205,12 +207,15 @@ export const cvData: CVData = {
         "Angular 21",
         "Spring Boot 3.x",
         "PostgreSQL",
+        "Flyway",
         "Docker",
         "WebSocket",
       ],
       description: [
-        "Piattaforma enterprise per analisi dati business con ML + Rules Engine.",
-        "Clean Architecture, WebSocket e dashboard real-time.",
+        "Ideazione e progettazione strutturale da zero dell'architettura di sistema per la gestione di un Rules Engine enterprise",
+        "Modellazione e definizione dei casi d'uso utente complessi correlati alla visualizzazione e all'analisi dei dati di business in tempo reale.",
+        "Scomposizione e gestione del ciclo di sviluppo secondo i flussi Agile, organizzando i rilasci incrementali attraverso la suddivisione rigorosa in Epiche, Task e Subtask.",
+        "Studio e ingegnerizzazione dell'interfaccia UI/UX per la dashboard, ottimizzando la visualizzazione di grafici e metriche real-time tramite WebSocket.",
       ],
     },
     {
