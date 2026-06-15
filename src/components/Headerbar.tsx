@@ -8,34 +8,27 @@ interface HeaderProps {
 
 export const Headerbar: React.FC<HeaderProps> = ({ personal, contacts }) => {
   return (
-    <header className='border-b border-slate-100 pb-10 mb-12'>
-      <h1 className='text-4xl font-extrabold text-slate-900 tracking-tight mb-2'>
+    <header className='text-center mb-5'>
+      <h1 className='text-3xl font-normal text-gray-900 tracking-wide uppercase mb-1.5'>
         {personal.name}
       </h1>
-      <p className='text-xl font-medium text-blue-600 mb-6 uppercase tracking-widest text-sm'>
-        {personal.role.replace("\n", " | ")}
-      </p>
-
-      <div className='flex flex-wrap gap-x-6 gap-y-3'>
+      <div className='flex flex-wrap justify-center items-center gap-x-2 text-[13px] text-gray-700'>
         {contacts.map((item, i) => (
-          <div
-            key={i}
-            className='flex items-center gap-2 text-slate-500 hover:text-slate-900 transition-colors'
-          >
-            <span className='text-blue-500/70'>{item.icon}</span>
+          <React.Fragment key={i}>
+            {i > 0 && <span className='text-gray-400 select-nonemx-1'>•</span>}
             {item.link ? (
               <a
                 href={item.link}
                 target='_blank'
                 rel='noreferrer'
-                className='text-sm font-medium underline-offset-4 hover:underline'
+                className='hover:underline hover:text-gray-900 transition-colors'
               >
                 {item.text}
               </a>
             ) : (
-              <span className='text-sm font-medium'>{item.text}</span>
+              <span>{item.text}</span>
             )}
-          </div>
+          </React.Fragment>
         ))}
       </div>
     </header>
