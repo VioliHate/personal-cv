@@ -8,14 +8,16 @@ interface HeaderProps {
 
 export const Headerbar: React.FC<HeaderProps> = ({ personal, contacts }) => {
   return (
-    <header className='text-center mb-5'>
-      <h1 className='text-3xl font-normal text-gray-900 tracking-wide uppercase mb-1.5'>
+    <header className='text-center mb-6'>
+      <h1 className='text-4xl font-bold text-gray-950 tracking-wide [font-variant:small-caps] mb-2'>
         {personal.name}
       </h1>
+
+      {/* Riga dei contatti */}
       <div className='flex flex-wrap justify-center items-center gap-x-2 text-[13px] text-gray-700'>
         {contacts.map((item, i) => (
           <React.Fragment key={i}>
-            {i > 0 && <span className='text-gray-400 select-nonemx-1'>•</span>}
+            {i > 0 && <span className='text-gray-400 select-none mx-1'>•</span>}
             {item.link ? (
               <a
                 href={item.link}
