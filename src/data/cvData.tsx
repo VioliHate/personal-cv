@@ -198,4 +198,8 @@ export const cvData: CVData = {
       period: "2004 - 2009",
     },
   ],
+  languages: [
+    { name: "Italiano", level: "Madrelingua" },
+    { name: "Inglese", level: "Intermedio (B1)" },
+  ],
 };
