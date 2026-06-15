@@ -9,7 +9,7 @@ export const TechStack: React.FC<{ data: CVData }> = ({ data }) => (
     <div className='space-y-1 text-[13.5px]'>
       {data.skills.map((category) => (
         <div key={category.title} className='flex items-baseline gap-1'>
-          <span className='font-bold text-gray-900 min-w-[150px] shrink-0'>
+          <span className='font-bold text-gray-955 min-w-[140px] shrink-0'>
             {category.title}:
           </span>
           <span className='text-gray-750 text-[13px]'>
