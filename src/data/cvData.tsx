@@ -67,10 +67,18 @@ export const cvData: CVData = {
       role: "Middle Developer",
       company: "Twentyfive25",
       period: "Settembre 2023 – Aprile 2024",
+      technologies: [
+        "Angular",
+        "TypeScript",
+        "Bootstrap 5",
+        "GitHub",
+        "RxJS",
+        "NgRx",
+      ],
       description: [
-        "Progettato e sviluppato interfacce utente scalabili in Angular come Tech Lead del team Front-End.",
-        "Gestito workflow di sviluppo, code review e rilasci su GitHub.",
-        "Supervisionato il processo di delivery e ottimizzato la produttività del team.",
+        "Operato in qualità di Lead Front-End coordinando le attività del team di sviluppo, supervisionando lo stato dell'avanzamento tecnico e ottimizzando i processi di delivery applicativa.",
+        "Gestione end-to-end del workflow di sviluppo tramite GitHub, occupandosi della pianificazione strategica dei rilasci e dell'esecuzione sistematica delle code review per garantire la massima qualità del codice.",
+        "Pianificazione e implementazione delle feature richieste seguendo rigorosamente i flussi della metodologia Agile per garantire rilasci incrementali e stabili.",
       ],
     },
     {
@@ -78,10 +86,20 @@ export const cvData: CVData = {
       role: "Junior FE Developer",
       company: "Eco-Mind Ingegneria Informatica",
       period: "Maggio 2021 – Maggio 2023",
+      technologies: [
+        "Angular",
+        "React",
+        "WebAssembly",
+        "TypeScript",
+        "Bootstrap",
+        "Tailwind CSS",
+        "CSS3",
+      ],
       description: [
-        "Sviluppato feature e logiche di business per WebApp GoSign5 ed Eye4Task in Angular.",
-        "Eseguito bug fixing e ottimizzazione UI/UX con significativo miglioramento delle performance.",
-        "Aggiornato su React e WebAssembly attraverso formazione tecnica continua.",
+        "Implementazione delle feature richieste e sviluppo delle logiche di business core per le piattaforme web enterprise GoSign5 ed Eye4Task.",
+        "Miglioramento complessivo delle interfacce UI/UX, curando la realizzazione dei layout e delle viste front-end secondo i moderni schemi e requisiti di accessibilità del software.",
+        "Attività quotidiana di bug fixing mirato e ottimizzazione prestazionale dei componenti applicativi.",
+        "Attività di ricerca, sviluppo e formazione tecnica continua sulle evoluzioni del panorama frontend, con focus mirato sull'integrazione di React e moduli WebAssembly.",
       ],
     },
     {
@@ -89,10 +107,18 @@ export const cvData: CVData = {
       role: "Software Developer",
       company: "Omnia Rebus Solutions",
       period: "Maggio 2019 – Maggio 2021",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "Spring Data JPA",
+        "Git",
+      ],
       description: [
-        "Sviluppato full-stack la piattaforma SpinApp seguendo l’intero ciclo di vita del software.",
-        "Implementato logiche back-end complesse in Java + Spring Boot e relativa visualizzazione front-end.",
-        "Completato training on-the-job su Java, Spring Boot, Angular e PostgreSQL.",
+        "Sviluppo full-stack del software proprietario SpinApp, partecipando attivamente alla realizzazione delle feature richieste lungo l'intero ciclo di vita del prodotto.",
+        "Implementazione delle logiche di back-end complesse in Java e Spring Boot, assicurando la corretta integrazione con la persistenza dati e la corrispettiva esposizione verso l'interfaccia utente in Angular.",
+        "Completamento di un percorso di training intensivo on-the-job focalizzato sulla progettazione e sul funzionamento di architetture software enterprise.",
       ],
     },
   ],
@@ -102,6 +128,7 @@ export const cvData: CVData = {
       role: "Software Developer Trainee",
       name: "InfoPower Research",
       period: "Dicembre 2018 – Febbraio 2019",
+      technologies: [],
       description: [
         "Sviluppato applicazione multipiattaforma SPINApp come progetto di tesi (150 ore).",
         "Front-end in Ionic + interventi back-end Java e bug fixing.",
@@ -113,6 +140,7 @@ export const cvData: CVData = {
       role: "Game Developer & Game Designer",
       name: "Global Game Jam – 'BubbleNap'",
       period: "Gennaio 2025",
+      technologies: [],
       description: [
         "Vincitore premio 'Miglior Gioco' (jam site locale).",
         "Sviluppato gioco completo in 48 ore in Java puro.",
@@ -123,6 +151,7 @@ export const cvData: CVData = {
       role: "Technical Designer & Developer",
       name: "GameForge Unical (Open Workshop)",
       period: "Novembre 2025 – Presente",
+      technologies: [],
       description: [
         "Progettazione tecnica del progetto 'Opus Deceptio' in Unity.",
         "Integrazione sistemi, gameplay logic, AI e ottimizzazione performance.",
@@ -133,6 +162,7 @@ export const cvData: CVData = {
       role: "Sound Designer",
       name: "Global Game Jam – 'Mask or Die'",
       period: "Gennaio 2026",
+      technologies: [],
       description: [
         "Secondo classificato 'Miglior Gioco' e 'Miglior Gameplay'.",
         "Sound design completo in 48 ore con FL Studio.",
@@ -143,6 +173,7 @@ export const cvData: CVData = {
       role: "Front-End Developer",
       name: "Personal-CV",
       period: "Gennaio 2026 – Presente",
+      technologies: [],
       description: [
         "Applicazione React per generazione dinamica e esportazione PDF del curriculum.",
         "Stack: React + TypeScript.",
@@ -153,6 +184,7 @@ export const cvData: CVData = {
       role: "Full Stack Developer",
       name: "Cignalottu – Barbering E-commerce & Training Platform",
       period: "Gennaio 2026 – Presente",
+      technologies: [],
       description: [
         "Piattaforma e-commerce + corsi professionali con JWT + OAuth2.",
         "Clean Architecture completa.",
@@ -164,6 +196,7 @@ export const cvData: CVData = {
       role: "Full Stack Developer",
       name: "VURPE – Smart BPM Dashboard",
       period: "Febbraio 2026 – Marzo 2026",
+      technologies: [],
       description: [
         "Piattaforma enterprise per analisi dati business con ML + Rules Engine.",
         "Clean Architecture, WebSocket e dashboard real-time.",
@@ -175,6 +208,7 @@ export const cvData: CVData = {
       role: "Front-End Developer & Trainer",
       name: "Git for Humans – Slides interattive",
       period: "Aprile 2026",
+      technologies: [],
       description: [
         "Presentazione interattiva in React per spiegare Git in modo semplice e visuale.",
         "Utilizzata per due lezioni da 90 minuti ciascuna (tot. 3 ore).",
