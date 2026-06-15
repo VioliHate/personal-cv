@@ -5,18 +5,16 @@ import { MainContent } from "./components/MainContent";
 
 export default function App() {
   return (
-    <div className='min-h-screen bg-slate-50 md:py-12 flex justify-center font-sans selection:bg-blue-100'>
-      {/* Contenitore A4-like */}
-      <div className='bg-white w-full max-w-4xl shadow-sm min-h-screen md:min-h-0 p-8 md:p-16 border border-slate-100'>
+    <div className='min-h-screen bg-slate-100 py-6 md:py-12 flex justify-center font-serif text-gray-900 selection:bg-gray-200'>
+      <div className='bg-white w-full max-w-3xl shadow-md min-h-screen md:min-h-0 p-10 md:p-12 border border-gray-200 print:shadow-none print:border-none print:p-0'>
         <Headerbar personal={cvData.personal} contacts={cvData.contact} />
-
         <MainContent data={cvData} />
       </div>
 
-      {/* Tasto Stampa (rimane fisso) */}
+      {/* Pulsante di stampa */}
       <button
         onClick={() => window.print()}
-        className='fixed bottom-8 right-8 bg-slate-900 text-white p-4 rounded-full shadow-2xl print:hidden hover:scale-110 transition-transform'
+        className='fixed bottom-8 right-8 bg-gray-900 text-white p-4 rounded-full shadow-2xl print:hidden hover:scale-105 active:scale-95 transition-transform'
       >
         <Download size={24} />
       </button>
