@@ -27,9 +27,8 @@ export const cvData: CVData = {
     },
   ],
   summary:
-    "Full Stack Developer con 6 anni di esperienza, specializzato in Angular e React. " +
-    "Progettazione e sviluppo di soluzioni enterprise con Spring Boot e Clean Architecture.\n" +
-    "Tech Lead FE e game developer premiato alla Global Game Jam.",
+    "Profondamente appassionato di tecnologia in tutte le sue forme. Mi piace esplorare e imparare nuovi stack e framework: anche quando non li conosco, riesco a capirli e a usarli in modo decente in tempi rapidi.\n" +
+    "Nella vita quotidiana ho la scrivania sempre in disordine perché mi rilassa, creo meme su praticamente tutto e sono abbastanza ironico. Mi diverto a spiegare concetti complessi anche con esempi scemi, perché secondo me è il modo più efficace per farli entrare in testa davvero.",
   skills: [
     {
       title: "FRONTEND",
