@@ -17,6 +17,7 @@ export interface WorkExperienceItem {
   role: string;
   company: string;
   period: string;
+  technologies: string[];
   description: string[];
 }
 
@@ -26,6 +27,7 @@ export interface OutWorkExperienceItem {
   role: string;
   name: string;
   period: string;
+  technologies: string[];
   description: string[];
 }
 
