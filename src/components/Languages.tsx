@@ -5,8 +5,8 @@ export const Languages: React.FC<{ data: CVData }> = ({ data }) => {
   if (!data.languages || data.languages.length === 0) return null;
 
   return (
-    <section className='print-keep-together mb-4'>
-      <h2 className='text-sm font-bold uppercase tracking-wider text-gray-800 border-b border-gray-900 pb-0.5 mb-2'>
+    <section className='mb-3 print-keep-together'>
+      <h2 className='text-sm font-bold uppercase tracking-wider text-gray-800 border-b border-gray-900 pb-0.5 mb-1.5'>
         Languages
       </h2>
       <div className='text-[13px] text-gray-700'>
