@@ -6,7 +6,7 @@ import { MainContent } from "./components/MainContent";
 export default function App() {
   return (
     <div className='min-h-screen bg-slate-100 py-6 md:py-12 flex justify-center font-serif text-gray-900 selection:bg-gray-200'>
-      <div className='bg-white w-full max-w-3xl shadow-md min-h-screen md:min-h-0 p-10 md:p-12 border border-gray-200 print:shadow-none print:border-none print:p-0'>
+      <div className='bg-white w-full max-w-3xl shadow-md min-h-screen md:min-h-0 p-8 md:p-10 print:shadow-none print:border-none print:p-0'>
         <Headerbar personal={cvData.personal} contacts={cvData.contact} />
         <MainContent data={cvData} />
       </div>

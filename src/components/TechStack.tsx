@@ -2,8 +2,8 @@ import React from "react";
 import type { CVData } from "../types/interfaces";
 
 export const TechStack: React.FC<{ data: CVData }> = ({ data }) => (
-  <section className='mb-4 print-keep-together'>
-    <h2 className='text-sm font-bold uppercase tracking-wider text-gray-800 border-b border-gray-900 pb-0.5 mb-2'>
+  <section className='mb-3 print-keep-together'>
+    <h2 className='text-sm font-bold uppercase tracking-wider text-gray-800 border-b border-gray-900 pb-0.5 mb-1.5'>
       Technical Skills
     </h2>
     <div className='space-y-1 text-[13.5px]'>
