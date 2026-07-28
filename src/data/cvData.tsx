@@ -5,7 +5,7 @@ import type { CVData } from "../types/interfaces";
 export const cvData: CVData = {
   personal: {
     name: "Domenico Violi",
-    role: "Full-Stack Developer \n Frontend Specialist",
+    role: "Mobile Developer \n React Native Specialist",
   },
   contact: [
     {
@@ -30,31 +30,31 @@ export const cvData: CVData = {
     {
       title: "FRONTEND & MOBILE",
       skills: [
-        "Angular",
-        "React",
         "React Native",
+        "Expo",
+        "Expo Router",
+        "React",
         "TypeScript",
         "Tailwind CSS",
-        "Bootstrap",
+        "Angular",
         "RxJS",
       ],
     },
     {
       title: "BACKEND & DEVOPS",
       skills: [
-        "Spring Boot",
-        "Spring Data JPA",
-        "PostgreSQL",
-        "Java",
         "Node.js",
+        "Spring Boot",
+        "Java",
+        "PostgreSQL",
         "Docker",
-        "Flyway",
-        "JUnit / Mockito",
+        "EAS Build (Android/iOS)",
+        "CI/CD Pipeline",
       ],
     },
     {
       title: "TOOLS & METODI",
-      skills: ["Git", "Agile (Scrum)", "EAS Build", "CI/CD Pipeline"],
+      skills: ["Git", "Agile (Scrum)", "Code Review", "UI/UX Design"],
     },
   ],
   workExperience: [
@@ -117,6 +117,24 @@ export const cvData: CVData = {
   outWorkExperience: [
     {
       id: 3,
+      role: "Lead Mobile Developer",
+      name: "Surici – Localized Recipe Selector App",
+      period: "2026",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Expo Router",
+        "Tailwind CSS",
+        "EAS Build",
+      ],
+      description: [
+        "Ideazione, progettazione e sviluppo da zero di un'applicazione mobile nativa per la selezione e ricerca di ricette tipiche regionali.",
+        "Ingegnerizzazione della logica di ricerca case-insensitive e ottimizzazione delle performance di filtraggio dati su device.",
+        "Gestione autonoma del ciclo di sviluppo e rilascio multipiattaforma (Android/iOS/Web) tramite pipeline EAS Build.",
+      ],
+    },
+    {
+      id: 2,
       role: "Full Stack Developer",
       name: "VURPE – Smart BPM Dashboard",
       period: "Febbraio 2026 – Marzo 2026",
@@ -130,23 +148,6 @@ export const cvData: CVData = {
       description: [
         "Ideazione e ingegnerizzazione strutturale dell'architettura per un Rules Engine enterprise.",
         "Sviluppo della dashboard ottimizzando la visualizzazione di metriche e grafici in tempo reale tramite WebSocket.",
-      ],
-    },
-    {
-      id: 2,
-      role: "Full Stack Developer",
-      name: "Cignalottu – Barbering E-commerce & Training Platform",
-      period: "Gennaio 2026 – Presente",
-      technologies: [
-        "Angular 21",
-        "Spring Boot 3.x",
-        "Tailwind CSS",
-        "JWT / OAuth2",
-        "Clean Architecture",
-      ],
-      description: [
-        "Progettazione da zero dell'architettura e del database della piattaforma per e-commerce e flussi di training.",
-        "Strutturazione del flusso di lavoro in Epiche/Task tramite metodologia Agile e sviluppo dell'interfaccia UI/UX",
       ],
     },
     {
