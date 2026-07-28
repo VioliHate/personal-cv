@@ -15,7 +15,7 @@ export const MainContent: React.FC<{ data: CVData }> = ({ data }) => {
       <ExperienceSection title='Work Experience' items={data.workExperience} />
       <ExperienceSection
         title='Side Projects'
-        items={[...data.outWorkExperience].reverse()}
+        items={[...data.outWorkExperience]}
       />
       {/* Formazione */}
       <Education data={data} />

@@ -54,7 +54,6 @@ export interface CVData {
   personal: PersonalInfo;
   contact: ContactItem[];
   skills: SkillCategory[];
-  summary: string;
   workExperience: WorkExperienceItem[];
   outWorkExperience: OutWorkExperienceItem[];
   education: EducationItem[];
